@@ -1,0 +1,128 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and default font */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation bar */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style the hero section */
+#hero {
+  background-image: url('wallpaper1.png'); /* Replace with your own image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+  HEIGHT: AUTO;
+}
+
+.hero-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the container for content sections */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+
+/* Style the profile picture */
+img {
+  max-width: 100%;
+  
+}
+
+/* Style the "About Me" section */
+#about {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+#hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000; 
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+#hero p {
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #333; /* Change the text color */
+  padding: 10px 0; /* Add padding to the text */
+}
+#about h2 {
+  font-size: 24px; /* Adjust the font size for the heading */
+  color: #000; /* Change the heading color */
+}
+/* Style the photo grid */
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style individual photo items */
+.photo-item {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin: 10px; /* Adjust the margin for spacing */
+  text-align: center;
+}
+
+.photo-item img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333; /* Add a border around the image */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.photo-item p {
+  margin-top: 10px;
+  font-size: 14px; /* Customize caption font size */
+  color: #333; /* Customize caption text color */
+}
